@@ -1,13 +1,19 @@
+entity Folder {
+    title String required,
+    description TextBlob,
+    created Instant
+}
+
 entity Document {
-  title String required
-  size Long required
-  mimeType String
+  title String required,
+  description TextBlob,
+  data Blob required,
+  uploaded Instant
 }
 
-entity Content {
-  data Blob required
+relationship ManyToOne {
+  Document{folder(title)} to Folder
 }
 
-relationship OneToOne {
-  Document{content} to Content{document(id) required}
-}
+paginate Folder with pagination
+paginate Document with infinite-scroll
