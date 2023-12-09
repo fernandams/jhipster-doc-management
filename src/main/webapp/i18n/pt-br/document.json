@@ -1,0 +1,28 @@
+{
+  "docManagementApp": {
+    "document": {
+      "home": {
+        "title": "Documents",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Document",
+        "createOrEditLabel": "Criar ou editar Document",
+        "notFound": "Nenhum Document encontrado"
+      },
+      "created": "Um novo Document foi criado com o identificador {{ param }}",
+      "updated": "Um Document foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Document foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Document"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "data": "Data",
+      "uploaded": "Uploaded",
+      "folder": "Folder"
+    }
+  }
+}

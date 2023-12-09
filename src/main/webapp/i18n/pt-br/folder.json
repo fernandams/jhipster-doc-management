@@ -1,0 +1,26 @@
+{
+  "docManagementApp": {
+    "folder": {
+      "home": {
+        "title": "Folders",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Folder",
+        "createOrEditLabel": "Criar ou editar Folder",
+        "notFound": "Nenhum Folder encontrado"
+      },
+      "created": "Um novo Folder foi criado com o identificador {{ param }}",
+      "updated": "Um Folder foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Folder foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Folder {{ id }}?"
+      },
+      "detail": {
+        "title": "Folder"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "created": "Created"
+    }
+  }
+}
