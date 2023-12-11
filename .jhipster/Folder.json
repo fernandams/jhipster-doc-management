@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20231207142809",
+  "entityTableName": "folder",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "created",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "Folder",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no"
+}
