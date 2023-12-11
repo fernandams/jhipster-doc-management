@@ -2,27 +2,27 @@
   "docManagementApp": {
     "document": {
       "home": {
-        "title": "Documents",
+        "title": "Documentos",
         "refreshListLabel": "Atualizar lista",
-        "createLabel": "Criar novo Document",
-        "createOrEditLabel": "Criar ou editar Document",
-        "notFound": "Nenhum Document encontrado"
+        "createLabel": "Criar novo Documento",
+        "createOrEditLabel": "Criar ou editar Documento",
+        "notFound": "Nenhum Documento encontrado"
       },
-      "created": "Um novo Document foi criado com o identificador {{ param }}",
-      "updated": "Um Document foi atualizado com o identificador {{ param }}",
-      "deleted": "Um Document foi excluído com o identificador {{ param }}",
+      "created": "Um novo Documento foi criado com o identificador {{ param }}",
+      "updated": "Um Documento foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Documento foi excluído com o identificador {{ param }}",
       "delete": {
-        "question": "Tem certeza de que deseja excluir Document {{ id }}?"
+        "question": "Tem certeza de que deseja excluir Documento {{ id }}?"
       },
       "detail": {
-        "title": "Document"
+        "title": "Documento"
       },
       "id": "ID",
-      "title": "Title",
-      "description": "Description",
+      "title": "Título",
+      "description": "Descrição",
       "data": "Data",
-      "uploaded": "Uploaded",
-      "folder": "Folder"
+      "uploaded": "Data de Upload",
+      "folder": "Pasta"
     }
   }
 }

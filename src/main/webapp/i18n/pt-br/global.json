@@ -8,8 +8,8 @@
       "entities": {
         "main": "Entidades",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
-        "folder": "Folder",
-        "document": "Document"
+        "folder": "Pasta",
+        "document": "Documento"
       },
       "account": {
         "main": "Conta",

@@ -2,25 +2,25 @@
   "docManagementApp": {
     "folder": {
       "home": {
-        "title": "Folders",
+        "title": "Pastas",
         "refreshListLabel": "Atualizar lista",
-        "createLabel": "Criar novo Folder",
-        "createOrEditLabel": "Criar ou editar Folder",
-        "notFound": "Nenhum Folder encontrado"
+        "createLabel": "Criar nova Pasta",
+        "createOrEditLabel": "Criar ou editar Pasta",
+        "notFound": "Nenhuma Pasta encontrada"
       },
-      "created": "Um novo Folder foi criado com o identificador {{ param }}",
-      "updated": "Um Folder foi atualizado com o identificador {{ param }}",
-      "deleted": "Um Folder foi excluído com o identificador {{ param }}",
+      "created": "Uma nova Pasta foi criada com o identificador {{ param }}",
+      "updated": "Uma Pasta foi atualizada com o identificador {{ param }}",
+      "deleted": "Um Pasta foi excluída com o identificador {{ param }}",
       "delete": {
-        "question": "Tem certeza de que deseja excluir Folder {{ id }}?"
+        "question": "Tem certeza de que deseja excluir Pasta {{ id }}?"
       },
       "detail": {
-        "title": "Folder"
+        "title": "Pasta"
       },
       "id": "ID",
-      "title": "Title",
-      "description": "Description",
-      "created": "Created"
+      "title": "Título",
+      "description": "Descrição",
+      "created": "Data de Criação"
     }
   }
 }
